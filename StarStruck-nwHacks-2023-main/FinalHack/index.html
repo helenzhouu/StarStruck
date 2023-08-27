@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Your Best Match</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/logo.png" alt="" />
+      </div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="about.html">About</a>
+      </nav>
+      <form>
+        <input
+          placeholder="Input Your Favorite Artist!"
+          type="text"
+          class="todo-input"
+          id="input1"
+        />
+        <button class="todo-button" type="submit">
+          <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="results">
+          <ul></ul>
+        </div>
+      </form>
+      <div class="todo-container">
+        <button class="match-btn" id="submit">Get Match</button>
+      </div>
+      <div class="todo-container">
+        <ul class="todo-list"></ul>
+      </div>
+
+      <div class="" id="popUp">
+        <div class="container-1">
+          <h2 id="c1h"></h2>
+          <p id="c1p"></p>
+        </div>
+
+        <div class="container-1">
+          <h2 id="c2h"></h2>
+          <p id="c2p"></p>
+        </div>
+        <div class="container-1">
+          <h2 id="c3h"></h2>
+          <p id="c3p"></p>
+        </div>
+        <button class="exitPopUp">X</button>
+      </div>
+    </header>
+    <script src="./app.js"></script>
+  </body>
+</html>
